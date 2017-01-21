@@ -1,0 +1,36 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/vertical_arrow"
+        android:icon="@drawable/double_headed_arrow_vertical"
+        android:title="vertical_level"
+        android:showAsAction="always"
+        android:orderInCategory="1"
+        />
+
+    <item
+        android:id="@+id/crossed_arrow"
+        android:icon="@drawable/flat_icon"
+        android:title="flat_level"
+        android:showAsAction="always"
+        android:orderInCategory="3"
+        />
+
+    <item
+        android:id="@+id/horizontal_arrow"
+        android:icon="@drawable/black_horizontal_arrow"
+        android:title="horizontal_level"
+        android:showAsAction="always"
+        android:orderInCategory="2"
+        />
+    </menu>
